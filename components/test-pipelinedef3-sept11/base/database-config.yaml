@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-pipelinedef3-sept11-database-config
+data:
+  VECTORDB_HOST: "test-pipelinedef3-sept11-database"
+  VECTORDB_PORT: ""
